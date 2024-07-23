@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 
 # body > section.highlights-portal
-URL = 'https://example.me'
+url = 'https://example.me'
 
 def realizar_raspagem():
-    acess = requests.get(URL)
+    acess = requests.get(url)
     html = acess.content
     html_parsed = BeautifulSoup(html, 'html.parser', from_encoding='utf-8')
 
