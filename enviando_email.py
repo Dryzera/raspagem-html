@@ -1,3 +1,5 @@
+# 'Type: ignore' foram adicionados pois estava acontecendo um problema com linter.
+
 from dotenv import load_dotenv
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
